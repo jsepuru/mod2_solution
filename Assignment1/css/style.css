@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+*{
+	box-sizing: border-box;
+}
+h1{
+	text-align: center;
+	color: blue;
+}
+h3{
+	text-align: right;
+	color: red;
+	border-radius: 25px;
+	border-style: inset;
+	border-width: thin;
+	padding-right: 10px;
+
+}
+#par1,#par2,#par3{
+	background-color:  lightgray;
+	margin: 20px;
+	padding: 10px;
+}
+@media (min-width: 992px) {
+	#par1{
+		width: 33%;
+		float: left;
+	}
+	#par2{
+		width: 33%;
+		float: left;
+	}
+	#par3{
+		width: 33%;
+		float: left;
+
+	}
+}
+@media(min-width: 768) and (min-width: 991){
+	#par1{
+		width: 50%;
+		float: left;
+	}
+	#par2{
+		width: 50%;
+		float: right;
+	}
+	#par3{
+		width: 100%;
+		clear: both;
+
+	}
+
+section{
+	clear: left;
+}
+}
